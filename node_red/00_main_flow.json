@@ -1,0 +1,1237 @@
+[
+    {
+        "id": "6427c8e42c7a88e1",
+        "type": "tab",
+        "label": "Flow 1",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "5bf64119b9d48f88",
+        "type": "group",
+        "z": "6427c8e42c7a88e1",
+        "style": {
+            "stroke": "#999999",
+            "stroke-opacity": "1",
+            "fill": "none",
+            "fill-opacity": "1",
+            "label": true,
+            "label-position": "nw",
+            "color": "#a4a4a4"
+        },
+        "nodes": [
+            "e001c6e1b4538f58",
+            "9e1492d5901e8e59",
+            "430035bbf0953214",
+            "30d95f4a67d7588d",
+            "e2588f5ff9f50a7f",
+            "19d37c4ab95b1c52",
+            "831cdafaf54133fd",
+            "e921d3aecf312b8b",
+            "93fe0943b53cf453",
+            "06add52ed3551222"
+        ],
+        "x": 54,
+        "y": 279,
+        "w": 372,
+        "h": 462
+    },
+    {
+        "id": "e5f89b8b47d4f294",
+        "type": "group",
+        "z": "6427c8e42c7a88e1",
+        "style": {
+            "stroke": "#999999",
+            "stroke-opacity": "1",
+            "fill": "none",
+            "fill-opacity": "1",
+            "label": true,
+            "label-position": "nw",
+            "color": "#a4a4a4"
+        },
+        "nodes": [
+            "87cebdc04d4a8295",
+            "be99eef04e1edfac",
+            "133b8faf4b8a3998",
+            "59da5821f456ee31",
+            "153dedf7f34db9ed",
+            "eaaabc72657a83fd",
+            "48bf5318b8713a3b",
+            "858d7ed6b94350fb",
+            "3f262e2cfa08ddce",
+            "ab9d5eab75a09a7b",
+            "fc71e425e10c4a85",
+            "04a4b46bc2400bcd",
+            "c0730d7e053d0a2b",
+            "856eb72ac69a0910",
+            "4396507472de1f15",
+            "f01b6a84e7d7847c",
+            "4da3ea7581a99bbe",
+            "e3c60ef1e7f26aca",
+            "0db2605b0b117cc5",
+            "8d551a3a7cb5cf4a",
+            "e2fc43f39ea2150b",
+            "44e1945c89792720",
+            "a101777407763235"
+        ],
+        "x": 454,
+        "y": 279,
+        "w": 932,
+        "h": 882
+    },
+    {
+        "id": "e001c6e1b4538f58",
+        "type": "ui-button-group",
+        "z": "6427c8e42c7a88e1",
+        "g": "5bf64119b9d48f88",
+        "name": "IR Light 1 ",
+        "group": "53dd7aabb6beddec",
+        "order": 1,
+        "width": 6,
+        "height": 1,
+        "label": "IR Light 1 ",
+        "className": "",
+        "rounded": true,
+        "useThemeColors": true,
+        "passthru": false,
+        "options": [
+            {
+                "label": "Off",
+                "icon": "",
+                "value": "light_on",
+                "valueType": "str",
+                "color": "#999999"
+            },
+            {
+                "label": "On",
+                "icon": "",
+                "value": "light_off",
+                "valueType": "str",
+                "color": "#009933"
+            }
+        ],
+        "topic": "ir_light_1",
+        "topicType": "msg",
+        "x": 140,
+        "y": 460,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "9e1492d5901e8e59",
+        "type": "ui-button-group",
+        "z": "6427c8e42c7a88e1",
+        "g": "5bf64119b9d48f88",
+        "name": "IR Light 2",
+        "group": "53dd7aabb6beddec",
+        "order": 2,
+        "width": 6,
+        "height": 1,
+        "label": "IR Light 2",
+        "className": "",
+        "rounded": true,
+        "useThemeColors": true,
+        "passthru": false,
+        "options": [
+            {
+                "label": "Off",
+                "icon": "",
+                "value": "light_on",
+                "valueType": "str",
+                "color": "#999999"
+            },
+            {
+                "label": "On",
+                "icon": "",
+                "value": "light_off",
+                "valueType": "str",
+                "color": "#009933"
+            }
+        ],
+        "topic": "ir_light_2",
+        "topicType": "msg",
+        "x": 140,
+        "y": 500,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "430035bbf0953214",
+        "type": "ui-button",
+        "z": "6427c8e42c7a88e1",
+        "g": "5bf64119b9d48f88",
+        "group": "a77affb0f5a347d2",
+        "name": "Reset Camera 1 ",
+        "label": "Reset",
+        "order": 2,
+        "width": "1",
+        "height": "1",
+        "emulateClick": false,
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "",
+        "iconPosition": "right",
+        "payload": "",
+        "payloadType": "str",
+        "topic": "topic",
+        "topicType": "msg",
+        "buttonColor": "",
+        "textColor": "",
+        "iconColor": "",
+        "enableClick": true,
+        "enablePointerdown": false,
+        "pointerdownPayload": "",
+        "pointerdownPayloadType": "str",
+        "enablePointerup": false,
+        "pointerupPayload": "",
+        "pointerupPayloadType": "str",
+        "x": 320,
+        "y": 660,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "30d95f4a67d7588d",
+        "type": "ui-button",
+        "z": "6427c8e42c7a88e1",
+        "g": "5bf64119b9d48f88",
+        "group": "a77affb0f5a347d2",
+        "name": "Reset Camera 2",
+        "label": "Reset",
+        "order": 4,
+        "width": "1",
+        "height": "1",
+        "emulateClick": false,
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "",
+        "iconPosition": "right",
+        "payload": "",
+        "payloadType": "str",
+        "topic": "topic",
+        "topicType": "msg",
+        "buttonColor": "",
+        "textColor": "",
+        "iconColor": "",
+        "enableClick": true,
+        "enablePointerdown": false,
+        "pointerdownPayload": "",
+        "pointerdownPayloadType": "str",
+        "enablePointerup": false,
+        "pointerupPayload": "",
+        "pointerupPayloadType": "str",
+        "x": 320,
+        "y": 700,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "e2588f5ff9f50a7f",
+        "type": "ui-text",
+        "z": "6427c8e42c7a88e1",
+        "g": "5bf64119b9d48f88",
+        "group": "a77affb0f5a347d2",
+        "order": 1,
+        "width": 5,
+        "height": 0,
+        "name": "",
+        "label": "Camera 1 ",
+        "format": "{{msg.payload}}",
+        "layout": "row-spread",
+        "style": true,
+        "font": "",
+        "fontSize": 16,
+        "color": "#717171",
+        "wrapText": false,
+        "className": "",
+        "value": "payloads",
+        "valueType": "msg",
+        "x": 140,
+        "y": 660,
+        "wires": []
+    },
+    {
+        "id": "19d37c4ab95b1c52",
+        "type": "ui-text",
+        "z": "6427c8e42c7a88e1",
+        "g": "5bf64119b9d48f88",
+        "group": "a77affb0f5a347d2",
+        "order": 3,
+        "width": 5,
+        "height": 0,
+        "name": "",
+        "label": "Camera 2",
+        "format": "{{msg.payload}}",
+        "layout": "row-spread",
+        "style": true,
+        "font": "",
+        "fontSize": 16,
+        "color": "#717171",
+        "wrapText": false,
+        "className": "",
+        "value": "payloads",
+        "valueType": "msg",
+        "x": 140,
+        "y": 700,
+        "wires": []
+    },
+    {
+        "id": "831cdafaf54133fd",
+        "type": "ui-button-group",
+        "z": "6427c8e42c7a88e1",
+        "g": "5bf64119b9d48f88",
+        "name": "Dippi Sick-mode",
+        "group": "53dd7aabb6beddec",
+        "order": 4,
+        "width": 6,
+        "height": 1,
+        "label": "Dippi Sick-mode",
+        "className": "",
+        "rounded": false,
+        "useThemeColors": false,
+        "passthru": false,
+        "options": [
+            {
+                "label": "Off",
+                "icon": "",
+                "value": "dippi_sick_off",
+                "valueType": "str",
+                "color": "#87ff66"
+            },
+            {
+                "label": "On",
+                "icon": "",
+                "value": "dippi_sick_on",
+                "valueType": "str",
+                "color": "#9a0404"
+            }
+        ],
+        "topic": "dippi_sick",
+        "topicType": "msg",
+        "x": 160,
+        "y": 560,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "e921d3aecf312b8b",
+        "type": "ui-button-group",
+        "z": "6427c8e42c7a88e1",
+        "g": "5bf64119b9d48f88",
+        "name": "Aune Sick-mode",
+        "group": "53dd7aabb6beddec",
+        "order": 5,
+        "width": 6,
+        "height": 1,
+        "label": "Aune Sick-mode",
+        "className": "",
+        "rounded": false,
+        "useThemeColors": false,
+        "passthru": false,
+        "options": [
+            {
+                "label": "Off",
+                "icon": "",
+                "value": "dippi_sick_off",
+                "valueType": "str",
+                "color": "#87ff66"
+            },
+            {
+                "label": "On",
+                "icon": "",
+                "value": "dippi_sick_on",
+                "valueType": "str",
+                "color": "#9a0404"
+            }
+        ],
+        "topic": "dippi_sick",
+        "topicType": "msg",
+        "x": 160,
+        "y": 600,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "93fe0943b53cf453",
+        "type": "ui-text",
+        "z": "6427c8e42c7a88e1",
+        "g": "5bf64119b9d48f88",
+        "group": "53dd7aabb6beddec",
+        "order": 7,
+        "width": 0,
+        "height": 0,
+        "name": "Sick-mode Description Text",
+        "label": "Sick-mode will notify all users each time the pet is detected (limit one notification per 15 minutes.)",
+        "format": "{{msg.payload}}",
+        "layout": "row-spread",
+        "style": true,
+        "font": "",
+        "fontSize": 16,
+        "color": "#717171",
+        "wrapText": false,
+        "className": "",
+        "value": "payloads",
+        "valueType": "msg",
+        "x": 200,
+        "y": 400,
+        "wires": []
+    },
+    {
+        "id": "06add52ed3551222",
+        "type": "comment",
+        "z": "6427c8e42c7a88e1",
+        "g": "5bf64119b9d48f88",
+        "name": "Settings Page",
+        "info": "",
+        "x": 230,
+        "y": 320,
+        "wires": []
+    },
+    {
+        "id": "87cebdc04d4a8295",
+        "type": "ui-gauge",
+        "z": "6427c8e42c7a88e1",
+        "g": "e5f89b8b47d4f294",
+        "name": "dippi_guage",
+        "group": "abe883ed140d43ae",
+        "order": 1,
+        "value": "dippi_last_seen",
+        "valueType": "msg",
+        "width": 3,
+        "height": 3,
+        "gtype": "gauge-half",
+        "gstyle": "rounded",
+        "title": "Dippi",
+        "alwaysShowTitle": false,
+        "floatingTitlePosition": "bottom-left",
+        "units": "hours",
+        "icon": "",
+        "prefix": "",
+        "suffix": "",
+        "segments": [
+            {
+                "from": "0",
+                "color": "#5cd65c",
+                "text": "",
+                "textType": "label"
+            },
+            {
+                "from": "4",
+                "color": "#ffc800",
+                "text": "",
+                "textType": "label"
+            },
+            {
+                "from": "6",
+                "color": "#ea5353",
+                "text": "",
+                "textType": "label"
+            }
+        ],
+        "min": 0,
+        "max": "10",
+        "sizeThickness": "20",
+        "sizeGap": 4,
+        "sizeKeyThickness": "0",
+        "styleRounded": true,
+        "styleGlow": false,
+        "className": "",
+        "x": 810,
+        "y": 660,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "be99eef04e1edfac",
+        "type": "ui-gauge",
+        "z": "6427c8e42c7a88e1",
+        "g": "e5f89b8b47d4f294",
+        "name": "aune_gauge",
+        "group": "abe883ed140d43ae",
+        "order": 2,
+        "value": "aune_last_seen",
+        "valueType": "msg",
+        "width": 3,
+        "height": 3,
+        "gtype": "gauge-half",
+        "gstyle": "rounded",
+        "title": "Aune",
+        "alwaysShowTitle": false,
+        "floatingTitlePosition": "top-left",
+        "units": "hours",
+        "icon": "",
+        "prefix": "",
+        "suffix": "",
+        "segments": [
+            {
+                "from": "0",
+                "color": "#5cd65c",
+                "text": "",
+                "textType": "label"
+            },
+            {
+                "from": "4",
+                "color": "#ffc800",
+                "text": "",
+                "textType": "label"
+            },
+            {
+                "from": "7",
+                "color": "#ea5353",
+                "text": "",
+                "textType": "label"
+            }
+        ],
+        "min": 0,
+        "max": 10,
+        "sizeThickness": "20",
+        "sizeGap": 4,
+        "sizeKeyThickness": "0",
+        "styleRounded": true,
+        "styleGlow": false,
+        "className": "",
+        "x": 810,
+        "y": 820,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "133b8faf4b8a3998",
+        "type": "inject",
+        "z": "6427c8e42c7a88e1",
+        "g": "e5f89b8b47d4f294",
+        "name": "10",
+        "props": [
+            {
+                "p": "dippi_last_seen",
+                "v": "10",
+                "vt": "num"
+            },
+            {
+                "p": "payload"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "10",
+        "payloadType": "str",
+        "x": 570,
+        "y": 500,
+        "wires": [
+            [
+                "87cebdc04d4a8295"
+            ]
+        ]
+    },
+    {
+        "id": "59da5821f456ee31",
+        "type": "inject",
+        "z": "6427c8e42c7a88e1",
+        "g": "e5f89b8b47d4f294",
+        "name": "4",
+        "props": [
+            {
+                "p": "dippi_last_seen",
+                "v": "4",
+                "vt": "num"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "x": 570,
+        "y": 540,
+        "wires": [
+            [
+                "87cebdc04d4a8295"
+            ]
+        ]
+    },
+    {
+        "id": "153dedf7f34db9ed",
+        "type": "inject",
+        "z": "6427c8e42c7a88e1",
+        "g": "e5f89b8b47d4f294",
+        "name": "2",
+        "props": [
+            {
+                "p": "dippi_last_seen",
+                "v": "2",
+                "vt": "num"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "x": 570,
+        "y": 580,
+        "wires": [
+            [
+                "87cebdc04d4a8295"
+            ]
+        ]
+    },
+    {
+        "id": "eaaabc72657a83fd",
+        "type": "inject",
+        "z": "6427c8e42c7a88e1",
+        "g": "e5f89b8b47d4f294",
+        "name": "Time",
+        "props": [
+            {
+                "p": "payload"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "iso",
+        "payloadType": "date",
+        "x": 650,
+        "y": 980,
+        "wires": [
+            [
+                "48bf5318b8713a3b"
+            ]
+        ]
+    },
+    {
+        "id": "48bf5318b8713a3b",
+        "type": "ui-text",
+        "z": "6427c8e42c7a88e1",
+        "g": "e5f89b8b47d4f294",
+        "group": "abe883ed140d43ae",
+        "order": 4,
+        "width": 2,
+        "height": 0,
+        "name": "Dippi Last Spot",
+        "label": "Dippi Last",
+        "format": "{{msg.payload}}",
+        "layout": "row-spread",
+        "style": true,
+        "font": "",
+        "fontSize": 16,
+        "color": "#212121",
+        "wrapText": false,
+        "className": "",
+        "value": "payload",
+        "valueType": "msg",
+        "x": 820,
+        "y": 980,
+        "wires": []
+    },
+    {
+        "id": "858d7ed6b94350fb",
+        "type": "inject",
+        "z": "6427c8e42c7a88e1",
+        "g": "e5f89b8b47d4f294",
+        "name": "Time",
+        "props": [
+            {
+                "p": "payload"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "iso",
+        "payloadType": "date",
+        "x": 650,
+        "y": 1020,
+        "wires": [
+            [
+                "3f262e2cfa08ddce"
+            ]
+        ]
+    },
+    {
+        "id": "3f262e2cfa08ddce",
+        "type": "ui-text",
+        "z": "6427c8e42c7a88e1",
+        "g": "e5f89b8b47d4f294",
+        "group": "abe883ed140d43ae",
+        "order": 6,
+        "width": 2,
+        "height": 0,
+        "name": "Aune Last Spot",
+        "label": "Aune Last",
+        "format": "{{msg.payload}}",
+        "layout": "row-spread",
+        "style": true,
+        "font": "",
+        "fontSize": 16,
+        "color": "#212121",
+        "wrapText": false,
+        "className": "",
+        "value": "payload",
+        "valueType": "msg",
+        "x": 820,
+        "y": 1020,
+        "wires": []
+    },
+    {
+        "id": "ab9d5eab75a09a7b",
+        "type": "inject",
+        "z": "6427c8e42c7a88e1",
+        "g": "e5f89b8b47d4f294",
+        "name": "10",
+        "props": [
+            {
+                "p": "aune_last_seen",
+                "v": "10",
+                "vt": "num"
+            },
+            {
+                "p": "payload"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "10",
+        "payloadType": "str",
+        "x": 550,
+        "y": 700,
+        "wires": [
+            [
+                "be99eef04e1edfac"
+            ]
+        ]
+    },
+    {
+        "id": "fc71e425e10c4a85",
+        "type": "inject",
+        "z": "6427c8e42c7a88e1",
+        "g": "e5f89b8b47d4f294",
+        "name": "4",
+        "props": [
+            {
+                "p": "aune_last_seen",
+                "v": "4",
+                "vt": "num"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "x": 550,
+        "y": 740,
+        "wires": [
+            [
+                "be99eef04e1edfac"
+            ]
+        ]
+    },
+    {
+        "id": "04a4b46bc2400bcd",
+        "type": "inject",
+        "z": "6427c8e42c7a88e1",
+        "g": "e5f89b8b47d4f294",
+        "name": "2",
+        "props": [
+            {
+                "p": "aune_last_seen",
+                "v": "2",
+                "vt": "num"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "x": 550,
+        "y": 780,
+        "wires": [
+            [
+                "be99eef04e1edfac"
+            ]
+        ]
+    },
+    {
+        "id": "c0730d7e053d0a2b",
+        "type": "comment",
+        "z": "6427c8e42c7a88e1",
+        "g": "e5f89b8b47d4f294",
+        "name": "Home Page",
+        "info": "",
+        "x": 910,
+        "y": 320,
+        "wires": []
+    },
+    {
+        "id": "856eb72ac69a0910",
+        "type": "ui-template",
+        "z": "6427c8e42c7a88e1",
+        "g": "e5f89b8b47d4f294",
+        "group": "19e9df6e849885ba",
+        "page": "",
+        "ui": "",
+        "name": "Camera-1",
+        "order": 3,
+        "width": 3,
+        "height": 0,
+        "head": "",
+        "format": "<div style=\"\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  height: 100%;\n  padding: 16px;\n\">\n  <img\n    src=\"https://cataas.com/cat\"\n    alt=\"A random cat\"\n    style=\"\n      max-width: 100%;\n      max-height: 80vh;\n      border-radius: 12px;\n      object-fit: contain;\n    \"\n  />\n</div>",
+        "storeOutMessages": true,
+        "passthru": true,
+        "resendOnRefresh": true,
+        "templateScope": "local",
+        "className": "",
+        "x": 1140,
+        "y": 520,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "4396507472de1f15",
+        "type": "ui-text",
+        "z": "6427c8e42c7a88e1",
+        "g": "e5f89b8b47d4f294",
+        "group": "abe883ed140d43ae",
+        "order": 9,
+        "width": 2,
+        "height": 0,
+        "name": "Dippi Times 24h",
+        "label": "Dippi Times Seen 24h",
+        "format": "{{msg.payload}}",
+        "layout": "row-spread",
+        "style": true,
+        "font": "",
+        "fontSize": 16,
+        "color": "#212121",
+        "wrapText": false,
+        "className": "",
+        "value": "payload",
+        "valueType": "msg",
+        "x": 820,
+        "y": 1080,
+        "wires": []
+    },
+    {
+        "id": "f01b6a84e7d7847c",
+        "type": "ui-text",
+        "z": "6427c8e42c7a88e1",
+        "g": "e5f89b8b47d4f294",
+        "group": "abe883ed140d43ae",
+        "order": 7,
+        "width": 2,
+        "height": 0,
+        "name": "Aune 24h Day",
+        "label": "Aune Times Seen 24h",
+        "format": "{{msg.payload}}",
+        "layout": "row-spread",
+        "style": true,
+        "font": "",
+        "fontSize": 16,
+        "color": "#212121",
+        "wrapText": false,
+        "className": "",
+        "value": "payload",
+        "valueType": "msg",
+        "x": 820,
+        "y": 1120,
+        "wires": []
+    },
+    {
+        "id": "4da3ea7581a99bbe",
+        "type": "inject",
+        "z": "6427c8e42c7a88e1",
+        "g": "e5f89b8b47d4f294",
+        "name": "3",
+        "props": [
+            {
+                "p": "payload"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "3",
+        "payloadType": "num",
+        "x": 650,
+        "y": 1080,
+        "wires": [
+            [
+                "4396507472de1f15"
+            ]
+        ]
+    },
+    {
+        "id": "e3c60ef1e7f26aca",
+        "type": "inject",
+        "z": "6427c8e42c7a88e1",
+        "g": "e5f89b8b47d4f294",
+        "name": "4",
+        "props": [
+            {
+                "p": "payload"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "4",
+        "payloadType": "num",
+        "x": 650,
+        "y": 1120,
+        "wires": [
+            [
+                "f01b6a84e7d7847c"
+            ]
+        ]
+    },
+    {
+        "id": "0db2605b0b117cc5",
+        "type": "ui-template",
+        "z": "6427c8e42c7a88e1",
+        "g": "e5f89b8b47d4f294",
+        "group": "19e9df6e849885ba",
+        "page": "",
+        "ui": "",
+        "name": "Camera-2",
+        "order": 4,
+        "width": 3,
+        "height": 0,
+        "head": "",
+        "format": "<div style=\"\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  height: 100%;\n  padding: 16px;\n\">\n  <img\n    src=\"https://cataas.com/cat\"\n    alt=\"A random cat\"\n    style=\"\n      max-width: 100%;\n      max-height: 80vh;\n      border-radius: 12px;\n      object-fit: contain;\n    \"\n  />\n</div>",
+        "storeOutMessages": true,
+        "passthru": true,
+        "resendOnRefresh": true,
+        "templateScope": "local",
+        "className": "",
+        "x": 1300,
+        "y": 520,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "8d551a3a7cb5cf4a",
+        "type": "ui-text",
+        "z": "6427c8e42c7a88e1",
+        "g": "e5f89b8b47d4f294",
+        "group": "19e9df6e849885ba",
+        "order": 1,
+        "width": 3,
+        "height": 0,
+        "name": "Camera 1 ",
+        "label": "Camera 1 ",
+        "format": "{{msg.payload}}",
+        "layout": "row-center",
+        "style": false,
+        "font": "",
+        "fontSize": 16,
+        "color": "#717171",
+        "wrapText": false,
+        "className": "",
+        "value": "payloads",
+        "valueType": "msg",
+        "x": 1140,
+        "y": 480,
+        "wires": []
+    },
+    {
+        "id": "e2fc43f39ea2150b",
+        "type": "ui-text",
+        "z": "6427c8e42c7a88e1",
+        "g": "e5f89b8b47d4f294",
+        "group": "19e9df6e849885ba",
+        "order": 2,
+        "width": 3,
+        "height": 0,
+        "name": "Camera 2",
+        "label": "Camera 2",
+        "format": "{{msg.payload}}",
+        "layout": "row-center",
+        "style": false,
+        "font": "",
+        "fontSize": 16,
+        "color": "#717171",
+        "wrapText": false,
+        "className": "",
+        "value": "payloads",
+        "valueType": "msg",
+        "x": 1300,
+        "y": 480,
+        "wires": []
+    },
+    {
+        "id": "44e1945c89792720",
+        "type": "comment",
+        "z": "6427c8e42c7a88e1",
+        "g": "e5f89b8b47d4f294",
+        "name": "Quick View",
+        "info": "",
+        "x": 640,
+        "y": 400,
+        "wires": []
+    },
+    {
+        "id": "a101777407763235",
+        "type": "comment",
+        "z": "6427c8e42c7a88e1",
+        "g": "e5f89b8b47d4f294",
+        "name": "Camera Feed",
+        "info": "",
+        "x": 1230,
+        "y": 400,
+        "wires": []
+    },
+    {
+        "id": "3869d9a3f55add11",
+        "type": "http request",
+        "z": "6427c8e42c7a88e1",
+        "name": "",
+        "method": "POST",
+        "ret": "txt",
+        "paytoqs": "ignore",
+        "url": "https://ntfy.sh/bunnycam_alert_19sjdux7w8ebx82",
+        "tls": "",
+        "persist": false,
+        "proxy": "",
+        "insecureHTTPParser": false,
+        "authType": "",
+        "senderr": false,
+        "headers": [],
+        "x": 1910,
+        "y": 300,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "a789fdc8687bfca2",
+        "type": "inject",
+        "z": "6427c8e42c7a88e1",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "Hello!",
+        "payloadType": "str",
+        "x": 1550,
+        "y": 300,
+        "wires": [
+            [
+                "49d18b23770d27fe"
+            ]
+        ]
+    },
+    {
+        "id": "49d18b23770d27fe",
+        "type": "function",
+        "z": "6427c8e42c7a88e1",
+        "name": "function 1",
+        "func": "msg.payload = \"Hello!\";\nmsg.headers = {\n    \"Title\": \"Response\",\n    \"Priority\": \"high\"\n};\nreturn msg;\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1720,
+        "y": 300,
+        "wires": [
+            [
+                "3869d9a3f55add11"
+            ]
+        ]
+    },
+    {
+        "id": "53dd7aabb6beddec",
+        "type": "ui-group",
+        "name": "Controls",
+        "page": "1f6a665d2d09e578",
+        "width": 6,
+        "height": 1,
+        "order": 1,
+        "showTitle": true,
+        "className": "",
+        "visible": "true",
+        "disabled": "false",
+        "groupType": "default"
+    },
+    {
+        "id": "a77affb0f5a347d2",
+        "type": "ui-group",
+        "name": "Status",
+        "page": "1f6a665d2d09e578",
+        "width": 6,
+        "height": 1,
+        "order": 2,
+        "showTitle": true,
+        "className": "",
+        "visible": "true",
+        "disabled": "false",
+        "groupType": "default"
+    },
+    {
+        "id": "abe883ed140d43ae",
+        "type": "ui-group",
+        "name": "Quick-view",
+        "page": "7bb53e9bb8c1eeb2",
+        "width": 6,
+        "height": 1,
+        "order": 1,
+        "showTitle": true,
+        "className": "",
+        "visible": "true",
+        "disabled": "false",
+        "groupType": "default"
+    },
+    {
+        "id": "19e9df6e849885ba",
+        "type": "ui-group",
+        "name": "Camera Feed",
+        "page": "7bb53e9bb8c1eeb2",
+        "width": 6,
+        "height": 1,
+        "order": 2,
+        "showTitle": true,
+        "className": "",
+        "visible": "true",
+        "disabled": "false",
+        "groupType": "default"
+    },
+    {
+        "id": "1f6a665d2d09e578",
+        "type": "ui-page",
+        "name": "Settings",
+        "ui": "a516a926f343ba17",
+        "path": "/settings",
+        "icon": "cog",
+        "layout": "flex",
+        "theme": "",
+        "breakpoints": [
+            {
+                "name": "Default",
+                "px": "0",
+                "cols": "3"
+            },
+            {
+                "name": "Tablet",
+                "px": "576",
+                "cols": "6"
+            },
+            {
+                "name": "Small Desktop",
+                "px": "768",
+                "cols": "9"
+            },
+            {
+                "name": "Desktop",
+                "px": "1024",
+                "cols": "12"
+            }
+        ],
+        "order": 2,
+        "className": "",
+        "visible": "true",
+        "disabled": "false"
+    },
+    {
+        "id": "7bb53e9bb8c1eeb2",
+        "type": "ui-page",
+        "name": "Home",
+        "ui": "a516a926f343ba17",
+        "path": "/page2",
+        "icon": "home",
+        "layout": "grid",
+        "theme": "",
+        "breakpoints": [
+            {
+                "name": "Default",
+                "px": "0",
+                "cols": "2"
+            },
+            {
+                "name": "Tablet",
+                "px": "576",
+                "cols": "6"
+            },
+            {
+                "name": "Small Desktop",
+                "px": "768",
+                "cols": "9"
+            },
+            {
+                "name": "Desktop",
+                "px": "1024",
+                "cols": "12"
+            }
+        ],
+        "order": 1,
+        "className": "",
+        "visible": true,
+        "disabled": false
+    },
+    {
+        "id": "a516a926f343ba17",
+        "type": "ui-base",
+        "name": "My Dashboard",
+        "path": "/dashboard",
+        "appIcon": "",
+        "includeClientData": true,
+        "acceptsClientConfig": [
+            "ui-notification",
+            "ui-control"
+        ],
+        "showPathInSidebar": false,
+        "headerContent": "page",
+        "navigationStyle": "default",
+        "titleBarStyle": "default",
+        "showReconnectNotification": true,
+        "notificationDisplayTime": 1,
+        "showDisconnectNotification": true,
+        "allowInstall": false
+    },
+    {
+        "id": "422b2f1a4e8289c6",
+        "type": "global-config",
+        "env": [],
+        "modules": {
+            "@flowfuse/node-red-dashboard": "1.29.0"
+        }
+    }
+]
