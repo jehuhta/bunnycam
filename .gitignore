@@ -2,4 +2,5 @@ venv/
 yolo_training_venv/*
 *.jpg
 *.txt
-
+YOLO/datasets/*
+runs\
