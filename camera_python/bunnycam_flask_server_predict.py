@@ -2,15 +2,14 @@ from flask import Flask, request
 from datetime import datetime
 import shutil
 import os, time
+import yolo
 
 app = Flask(__name__)
- 
+
 IR_DIR = "/media/jessurpi/ESD-USB/Bunnycam"
 os.makedirs(IR_DIR, exist_ok=True)
 
 @app.route("/upload", methods=["POST"])
-
-
 def upload():
 
     img_bytes = request.data
@@ -26,18 +25,13 @@ def upload():
 
     path = os.path.join(IR_DIR, f"device_{device_id}_{dt_str}.jpg")
 
-    with open(path, "wb") as f:
-        f.write(img_bytes)
+        
 
-    print(f"Saved: {path} ({len(img_bytes)} bytes)")
+    # with open(path, "wb") as f:
+    #     f.write(img_bytes)
 
-
-
+    # print(f"Saved: {path} ({len(img_bytes)} bytes)")
     return "OK", 200
-
-
-
-
 
 if __name__ == "__main__":
     app.run(host="0.0.0.0", port=8080)
