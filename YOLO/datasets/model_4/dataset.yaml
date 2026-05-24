@@ -1,0 +1,5 @@
+train: C:\Users\kykis\bunnycam\YOLO\datasets\model_4\autosplit_train.txt
+val:   C:\Users\kykis\bunnycam\YOLO\datasets\model_4\autosplit_val.txt
+test:  C:\Users\kykis\bunnycam\YOLO\datasets\model_4\autosplit_test.txt
+nc: 2
+names: ['Aune', 'Dippi']

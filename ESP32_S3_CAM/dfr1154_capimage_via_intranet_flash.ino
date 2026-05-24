@@ -4,9 +4,9 @@
 #include <DFRobot_LTR308.h>
 
 // ---- CONFIG ----
-const char* WIFI_SSID     = "DNA-WIFI-27CC";
-const char* WIFI_PASSWORD = "mandidippi";
-const char* SERVER_URL    = "http://192.168.1.200:8080/upload";
+const char* WIFI_SSID     = "XXXX";
+const char* WIFI_PASSWORD = "XXXX";
+const char* SERVER_URL    = "http://XXXX/upload";
 const int   INTERVAL_MS   = 5000;
 // ----------------
 
