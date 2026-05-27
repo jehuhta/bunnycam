@@ -2,6 +2,8 @@
 # Bunnycam
 <h3><i>Computer Vision Rabbit Health Monitoring System</i></h3>
 
+<p>An amateur project from a <strong>Machine Learning & Data Engineering</strong> student developer, built to solve a real problem: early detection of GI stasis in pet rabbits — a condition that can be fatal within hours if left untreated.</p>
+
 ### <i> WORK IN PROGRESS </i>
 
 <br>
@@ -19,7 +21,7 @@
 <br>
 <br>
 
-<p>An amateur project from a <strong>Machine Learning & Data Engineering</strong> student developer, built to solve a real problem: early detection of GI stasis in pet rabbits — a condition that can be fatal within hours if left untreated.</p>
+
 
 </div>
 
