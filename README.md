@@ -1,6 +1,7 @@
 <div align="center">
 
 # Bunnycam
+### <i> WORK IN PROGRESS </i>
 
 <h3><i>Computer Vision Rabbit Health Monitoring System</i></h3>
 
