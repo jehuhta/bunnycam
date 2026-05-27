@@ -1,13 +1,20 @@
-<div align="center">
+<img width="1054" height="622" alt="image" src="https://github.com/user-attachments/assets/25b73390-cf52-4014-8f9b-778480e9334a" /><div align="center">
 
 # Bunnycam
 ### <i> WORK IN PROGRESS </i>
+
+<img width="1054" height="622" alt="image" src="https://github.com/user-attachments/assets/a3c04e3d-8133-404c-8809-33070ffec9d0" />
+<img width="721" height="696" alt="image" src="https://github.com/user-attachments/assets/23dff2ea-df2a-4f7a-91a4-ce99ba1e1a03" />
+<img width="242" height="340" alt="image" src="https://github.com/user-attachments/assets/b9f37ab5-0366-4898-8020-a9833cc820c0" />
+<img width="1225" height="322" alt="image" src="https://github.com/user-attachments/assets/fe6db3ba-91a3-4911-b820-fd1f6b46c5a4" />
+
 
 <h3><i>Computer Vision Rabbit Health Monitoring System</i></h3>
 
 <p>An amateur project from a <strong>Machine Learning & Data Engineering</strong> student developer, built to solve a real problem: early detection of GI stasis in pet rabbits — a condition that can be fatal within hours if left untreated.</p>
 
 </div>
+
 
 <br>
 
