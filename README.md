@@ -7,7 +7,6 @@
 <br>
 <br>
 
-<h3><i>Computer Vision Rabbit Health Monitoring System</i></h3>
 
 <img width="1054" height="622" alt="image" src="https://github.com/user-attachments/assets/a3c04e3d-8133-404c-8809-33070ffec9d0" />
 
