@@ -45,6 +45,9 @@ ESP32-S3 Cameras (WiFi)
 → Cloudflare Tunnel (public HTTPS access)
 </div>
 
+<br>
+
+
 - **ESP32-S3 FireBeetle** microcontrollers with OV2640 cameras send JPEG frames over WiFi via HTTP
 - **ESP32 WROOM** controls 850nm IR LED lighting for reliable night vision *(invisible to rabbits and humans)*
 - **Raspberry Pi 5** runs Flask for inference, Node-RED for the dashboard, and DuckDB for storage
