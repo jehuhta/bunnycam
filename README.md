@@ -1,5 +1,7 @@
 
 # Bunnycam
+<h3><i>Computer Vision Rabbit Health Monitoring System</i></h3>
+
 ### <i> WORK IN PROGRESS </i>
 
 <br>
