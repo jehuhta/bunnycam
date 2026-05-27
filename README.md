@@ -1,4 +1,3 @@
-<img width="1054" height="622" alt="image" src="https://github.com/user-attachments/assets/25b73390-cf52-4014-8f9b-778480e9334a" /><div align="center">
 
 # Bunnycam
 ### <i> WORK IN PROGRESS </i>
